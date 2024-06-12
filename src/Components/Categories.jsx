@@ -9,7 +9,7 @@ const Categories = ({ data }) => {
     const fetchData = async () => {
 
         let url;
-        if (data == 'Home') {
+        if (data === 'Home') {
             url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=6b2587fb97184cd9bc2a2674eacef73b";
         }
         else {
