@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# NewsHub
+
+NewsHub is a dynamic news aggregator web application that delivers the latest top news headlines from around the world.\
+Built with React and powered by the NewsAPI, NewsHub allows users to explore current news articles across various categories such as technology, sports, business, entertainment, and more.
+
+# Features
+
+- Real-time News Updates: Fetches and displays the latest news articles from multiple categories.
+- Responsive Design: Optimized for both desktop and mobile viewing.
+- Category Filtering: Easily switch between different news categories.
+- User-friendly Interface: Clean and intuitive UI for an enhanced user experience.
+
+## Technologies Used
+ - Frontend: React, HTML, CSS (with custom styles and Bootstrap)
+ - API: NewsAPI
+
+  
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
