@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-function App() {
+import Navbar from './Components/Navbar'
+import Categories from './Components/Categories'
+import NewsHub from './Components/NewsHub'
+import Footer from './Components/Footer'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<NewsHub />} />
+          <Route path='/Home' element={<Categories data="Home" />} />
+          <Route path='/General' element={<Categories data="General" />} />
+          <Route path='/Business' element={<Categories data="Business" />} />
+          <Route path='/Entertainment' element={<Categories data="Entertainment" />} />
+          <Route path='/Health' element={<Categories data="Health" />} />
+          <Route path='/Science' element={<Categories data="Science" />} />
+          <Route path='/Sports' element={<Categories data="Sports" />} />
+          <Route path='/Technology' element={<Categories data="Technology" />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
