@@ -1,0 +1,63 @@
+/* Categories.css */
+
+.cat-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.cat-container {
+    max-width: 850px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cat-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.cat-title h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cat-title img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cat-title p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.cat-title a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cat-title a:hover {
+    text-decoration: underline;
+}
+
+.para_desc {
+    font-size: 18px;
+    color: #999;
+}

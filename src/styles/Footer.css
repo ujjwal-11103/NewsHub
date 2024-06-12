@@ -1,0 +1,13 @@
+.cat-footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.cat-footer p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
